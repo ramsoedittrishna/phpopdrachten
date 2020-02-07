@@ -1,0 +1,28 @@
+
+aside
+{
+    background-color: deeppink;
+    color: darkblue;
+    padding: 15px 50px;
+    font-family: "Century Gothic";
+}
+
+header
+{
+    background-color: darkcyan;
+    color: wheat;
+    font-family: "Century Gothic";
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: greenyellow;
+}
+
