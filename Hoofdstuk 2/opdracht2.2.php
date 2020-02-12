@@ -27,18 +27,25 @@ $text14 = "Vind je niet"; //string
 <!DOCTYPE html>
 
 <header>
-    <h1><?php echo "Opdracht 2.2"; ?></h1>
-    <link rel="stylesheet" type="text/css" href="">
+    <h1>
+        <?php
+        // h1 element ingeroepen via echo.
+        echo "Opdracht 2.2"; ?>
+    </h1>
 </header>
 <aside>
-        // variabelen opgeroepen via echo.
-        <?php echo '<p>' . $text1, $text4, $text5, $text3, $text12,
-        $text7, $text8, "toch", $text9, $text12,
-        $text6, $text5, $text3 . '</p>' ;?>
 
-        <?php echo '<p>' . $text1, $text11,$text12,
+        <?php
+        // variabelen opgeroepen via echo.
+        echo '<p>' . $text1, $text4, $text5, $text3, $text12,
+        $text7, $text8, "toch", $text9, $text12,
+        $text6, $text5, $text3 . '</p>' ;
+
+        // variabelen opgeroepen via echo
+        echo '<p>' . $text1, $text11,$text12,
         $text8, "toch dat ", $text5, "zo'n ", $text2, $text10, $text12,
-        $text7, $text14, $text9  . '</p>' ;?>
+        $text7, $text14, $text9  . '</p>' ;
+        ?>
 </aside>
 
 
