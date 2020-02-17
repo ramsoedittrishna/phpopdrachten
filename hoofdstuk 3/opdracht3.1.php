@@ -10,9 +10,7 @@
 <!DOCTYPE html>
 
 <header>
-        <title>
-                Opdracht 3.1
-        </title>
+    <h1>Opdracht 3.1</h1>
 </header>
 <aside>
     <?php
