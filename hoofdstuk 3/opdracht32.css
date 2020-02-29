@@ -1,0 +1,18 @@
+h1
+{
+    background-color: red;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    margin: 0px;
+}
+
+#red
+{
+    color: red;
+}
+
+#green
+{
+    color: green;
+}
