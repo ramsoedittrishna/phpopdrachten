@@ -1,7 +1,6 @@
 <?php
 include "include/script.php";
 include "include/header.php";
-include "include/footer.php";
 ?>
 <!DOCTYPE html>
 <header>
@@ -22,9 +21,11 @@ include "include/footer.php";
     // Computertekenen - Van den Berg
     // Engels - Mitrovic
 
-    $courseName = "Database";
+    // declareren en intialiseren van variabelen
+    $courseName = "Modelleren";
     $teacherName = ""; // je kan dit leeg laten, omdat je de techername al declareert in de case
 
+    // switch statement de variablen erin verwerkt.
     switch ($courseName)
     {
         case "PHP":
@@ -61,7 +62,10 @@ include "include/footer.php";
             break;
     }
 
-    echo "Je hebt het vak " . '<span class= "weight">' . $courseName . '</span>' . " en je docent is " . '<span class="weight">' . $teacherName . '</span>';
+    // echo van het eindresultaat.
+    echo "Je hebt het vak " . '<span class= "weight">' . $courseName . '</span>' . " en de docent van deze vak is " . '<span class="weight">' . $teacherName . '</span>';
 
     ?>
 </aside>
+<?php
+include "include/footer.php";
