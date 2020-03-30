@@ -5,8 +5,8 @@
  * Time: 15:00 PM
  * File: script.php
  */
-?>
-<?php
+
+
 
     $task2 = "Lancering in";
     $counter = 19;
@@ -25,19 +25,33 @@
     }
 
     $task4 = "";
-    $counter = 0;
+    $counter = 1;
+
 
     while($counter <= 6 )
     {
-        $task4 =  "Dit is de" . $task4 . "iteratie" .  $counter ;
-        ++ $counter;
+        $task4 =  $task4 . "Dit is de ". $counter . "e iteratie" . '<br>';
+        $counter++;
     }
 
     $task5 = "";
-    $counter = 0;
-    for($counter = 0; $counter < 11; ++$counter)
+    $counter = 1;
+
+    for($counter = 1; $counter < 11; ++$counter)
     {
-        $task5 = "Dit is" . $counter . $task5 . '<br>';
+        $task5 = $task5 . "Dit is de " . $counter ."e interatie" . '<br>';
     }
 
-    $task6 =
+
+    $task6 = "";
+    $counter = 2020 ;
+    $age = 23;
+
+    while($counter >= 1997)
+       {
+           $task6 = $task6 . "In" . $counter . " was ik" . $age . " jaar oud" . '<br>';
+           $counter--;
+           $age--;
+       }
+?>
+

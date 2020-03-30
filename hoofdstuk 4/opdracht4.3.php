@@ -8,9 +8,10 @@
 include "../include/header.php";
 
 include "../include/menu.php";
+
+
 ?>
-
-
+<link rel="stylesheet" type="text/css" href="opdracht4.3.php.css">
 <?php
 
 ?>
@@ -19,7 +20,8 @@ include "script.php";
     echo $task2 . '<br>';
     echo $task3 . '<br>';
     echo $task4 . '<br>';
-    echo '<td>' . $task5 . '</td>';
+    echo '<tr><td>' . $task5 . '</td></tr>' . '<br>';
+    echo $task6;
 
 ?>
 
