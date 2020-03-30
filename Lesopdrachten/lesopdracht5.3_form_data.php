@@ -46,9 +46,16 @@ require "lesopdracht5.3_functions.php";
             <?php
             if($_GET['subject'] == 'php')
             {
-                $teacherIct = getTeacherName();
-                echo $teacherIct;
+                $teacherphp = getTeacherNamePhp();
+                echo $teacherphp;
             }
+
+            if($_GET['subject'] == 'js')
+            {
+                $teacherjs = getTeacherNameJs();
+                echo $teacherjs;
+            }
+
             ?>
         </td>
     </tr>
