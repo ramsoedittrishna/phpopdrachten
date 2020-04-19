@@ -1,0 +1,32 @@
+
+h1, h2
+{
+    text-align: center;
+    font-family: "Century Gothic";
+}
+
+table
+{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Century Gothic";
+}
+
+#opening
+{
+    width: 200px;
+}
+
+#adres
+{
+    width: 200px;
+    margin-top: -19px;
+}
+
+p
+{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
